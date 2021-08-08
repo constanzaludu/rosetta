@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosetta</title>
+    <!-- CSS only -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.2/morph/bootstrap.min.css"
+      integrity="sha512-ZOEMfJac7enkyGovc+OFcqGo5A35ydWAA5kLlcQtjJWFRnTDX4OW2U80pmD5Eg5kvvV+X+agCqh7cYQgidfOPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="rosettaboostrap.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container-fluid">
+        <nav id=" navbar-navegacion" class=" navbar-light bg-light">
+          <div>
+            <a href="#">
+              <img src="Rosetta.PNG" alt="Logo de Rosetta" width="100" height="auto">
+            </a>
+          </div>
+        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ingles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Español</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aleman</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Precios de los cursos</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Cursos intensivos</a>
+                <a class="dropdown-item" href="#">Cursos extensivos</a>
+                <a class="dropdown-item" href="#">Cursos personalizados</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Mostrar todos</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Buscar"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- DIV CONTAINER -->
+    <div class="container mt-3">
+      <h1>Rosetta Language Center</h1>
+      <p>
+        El mundo está lleno de gente que tiene sueños - sueños de una carrera
+        exitosa, sueños de mudarse al exterior, sueños de viajar a lugares
+        lejanos. En Rosetta Language Center, ayudamos a las personas a hacer
+        realidad sus sueños.</p>
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p class="mb-0"> Todos nuestros sueños se pueden volver realidad si tenemos el coraje de
+              perseguirlos.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Walt Disney
+        </figcaption>
+        </figure>
+      <br>
+      <h5>¡Ahora nuestros cursos son 100% Online!</h4>
+      <button type="button" class="btn btn-outline-info">Inscribirme ahora</button>
+        <!-- CAROUSEL -->
+      <div class="container" id="carouselExampleSlidesOnly">
+        <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn.pixabay.com/photo/2021/06/26/09/55/video-conference-6365765_960_720.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="http://pactodealcaldes-la.eu/wp-content/uploads/2020/07/STORY_ESP-1080x800.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://st2.depositphotos.com/3591429/12384/i/600/depositphotos_123844270-stock-photo-male-hands-typing-on-laptop.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+    </div>        
+    <!-- FIN CAROUSEL -->
+      <br>
+      <button type="button" class="btn btn-outline-info">Hace tu prueba de nivel ahora</button>
+      <h5 class="mt-3">Solo te tomara 15 mimutos</h5>
+      <p>El test de Rosetta Language Center está diseñado para que puedas saber en que nivel te encuentras y lo que podrías mejorar para dominar el idioma. Obtené tu resultado del test de nivelacion de forma rápida y precisa.</p>
+        <button type="button" class="btn btn-primary btn-sm m-2" data-toggle="collapse" data-target= "#demo">Ver más</button>
+        <div id="demo" class="collapse">Nuestra nivelación es una prueba multinivel de inglés con resultados en 48 horas. Se realiza a través de ordenador y evalúa el nivel de un candidato, o grupo de candidatos, de forma rápida y precisa.</div>
+      <div class="div-contenedor-citas mt-1 p-2">
+        <h4 class="mt-3 text-center mb-3">¿Qué opinan nuestros alumnos sobre Rosetta Language Center?</h4>
+        <div class="container">
+          <div class="row row-cols-2">
+            <div class="col">
+              <figure class="text-center">
+                <blockquote class="blockquote fs-6">
+                  <p class="mb-0">Me gusta esta academia por su agradable atmósfera. Los profesores y el personal en general nos hacen sentir relajados y seguros con nuestro aprendizaje.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer fs-6">
+                  Irene Petraglia
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="text-center">
+                <blockquote class="blockquote fs-6">
+                  <p class="mb-0">Mi nivel de inglés mejoró sustancialmente, especialmente las habilidades de listeninig y speaking. Ana es una gran profesora y relamente se esfuerza para que los alumnos noten el progreso.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer fs-6">
+                    Juan García
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p class="mb-0 fs-6">Estoy muy contenta con los resultados. No puedo más que recomendarlos.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer fs-6">
+                    Theresa Ramalla
+                </figcaption>
+              </figure>  
+            </div>
+            <div class="col">
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p class="mb-0 fs-6">¡Rosetta es lo más! Disfruté mucho de mi paso por esta academia. Tuve compañeros de todos lados del mundo, lo cual enriqueció significativamente mi experiencia. Simplemente agradable en todo sentido. </p>
+                </blockquote>
+                <figcaption class="blockquote-footer fs-6">
+                    Diego Suárez
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-sm mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        ¡Envianos tu mensaje!
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">¡Envianos tu mensaje!</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" autocomplete="off" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" autocomplete="off" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
+                <textarea placeholder="Escribe tu mensaje" autocomplete="off" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>  <!-- FIN DIV CONTAINER -->
+    <!-- Footer -->
+    <footer>
+      <nav class="navbar" id="navbar-footer">
+        <div >
+          <a class="navbar-brand" href="#">
+            <img src="Rosetta.PNG" alt="Logo de Rosetta" width="45" height="36" class="d-inline-block align-text-top">
+            Rosseta Language Center
+          </a>
+        </div>
+        <div class="redes-sociales">
+          <a href="">
+            <img src="fb_icon_325x325.png" alt="Facebook logo" width="30" height="30">
+          </a>
+          <a href="">
+            <img src="instagram.png" alt="Instagram Logo" width="30" height="30">
+          </a>
+          <a href="">
+            <img src="twitter.png" alt="Twitter logo" width="30" height="30">
+          </a>
+        </div>
+      </nav>
+    </footer>  <!-- FIN de Footer -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

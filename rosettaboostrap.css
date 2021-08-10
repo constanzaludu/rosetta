@@ -1,0 +1,64 @@
+#carouselExampleSlidesOnly {
+    display: flex;
+    justify-content:center; 
+}
+.carousel-caption{
+    bottom: 0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+filter: invert(100%);
+}
+.heading-slice {
+    color: white;
+    background-color: rgb(155, 192, 192);
+}
+
+.carousel-inner{
+    width: 700px;
+    height: 450px;
+}
+a{
+    text-decoration: none;
+}
+#navbar-footer {
+    padding-left: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.redes-sociales {
+    padding-right: 1rem;
+}
+.div-contenedor-citas:hover {
+    background-color: #261bc018;
+    color:black;
+}
+.modal-header {
+    background-color: #5B62F4;
+}
+.modal-title {
+    color: blanchedalmond;
+}
+textarea {
+    resize: none;
+}
+@media screen and (max-width: 480px) {
+    .carousel-inner{
+        width: 330px;
+        height: 250px;
+    }
+    .redes-sociales {
+        margin: auto;
+    }
+    body {
+        background-color: rgb(17, 42, 94);
+        color: cornsilk;
+    }
+    h1, h2, h3, h4, h5 {
+        color: rgb(179, 173, 149);
+    }
+}
+   
+
+
+
+   
